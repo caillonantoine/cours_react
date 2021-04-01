@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Counter = (props) => {
+const UseStateExample = (props) => {
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
@@ -15,7 +15,7 @@ const Counter = (props) => {
   );
 };
 
-// class Counter extends React.Component {
+// class UseStateExample extends React.Component {
 //   constructor(props) {
 //     super(props);
 //     this.state = {
@@ -37,5 +37,5 @@ const Counter = (props) => {
 //   }
 // }
 
-export default Counter;
+export default UseStateExample;
 
