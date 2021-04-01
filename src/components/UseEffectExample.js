@@ -9,6 +9,7 @@ const UseEffectExample = (props) => {
 
   const inc = () => {
     setCount((currentCount) => currentCount + 1);
+    // setCount(count + 1); // FAUX: la valeur de count n'est pas à jour
   };
 
   return (

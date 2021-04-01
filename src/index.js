@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import UseEffectExample from "./components/UseEffectExample";
 import UseStateExample from "./components/UseStateExample";
 
-// useState example
 ReactDOM.render(
   <div>
     <h2>useState example</h2>
